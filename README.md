@@ -6,3 +6,6 @@ Your Void84 calculator will come with the Void84 application pre-installed. If t
 1) To update, download the latest `.8xp` file from the releases tab to the right.
 2) Use the latest [TI Connect CE](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) software to transfer the file to the calculator. Use a YouTube tutorial for more info.
 3) Bam!
+
+## Bug Reporting & Feature Requests
+If you find a bug, or want to request a feature with your Void84 calculator software, go to the `Issues` tab on the topbar, and create an issue. Use whatever template suites your type of report.
