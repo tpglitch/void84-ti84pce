@@ -1,0 +1,20 @@
+name: 'Close stale issues'
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: >
+            'This issue is stale because it was idle for more than 30 days.'
+          days-before-stale: 30
+          days-before-close: 0
